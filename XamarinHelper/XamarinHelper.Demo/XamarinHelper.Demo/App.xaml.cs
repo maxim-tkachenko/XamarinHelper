@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
+using XamarinHelper.Demo.Pages;
 
 namespace XamarinHelper.Demo
 {
@@ -13,7 +9,7 @@ namespace XamarinHelper.Demo
         {
             InitializeComponent();
 
-            MainPage = new XamarinHelper.Demo.MainPage();
+            MainPage = new DisabledPage();
         }
 
         protected override void OnStart()
