@@ -9,7 +9,7 @@ namespace XamarinHelper.Demo
         {
             InitializeComponent();
 
-            MainPage = new DisabledPage();
+            MainPage = new NavigationPage(new StartPage());
         }
 
         protected override void OnStart()
